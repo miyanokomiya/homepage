@@ -12,9 +12,9 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://example.org/"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+baseURL = "https://miyanokomiya.tokyo/"
+languageCode = "ja-jp"
+defaultContentLanguage = "ja-jp"
 title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
@@ -32,16 +32,15 @@ canonifyurls = true
 
 [author]
   name = "miyanokomiya"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "France"
+  # bio = "Super bio with markdown support **COOL**"
+  # job = "Your job title"
+  location = "Japan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  # gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
-  # Your Twitter username without the @. E.g : thibaudlepretre
-  # twitter = "thibaudlepretre"
+  picture = "https://avatars0.githubusercontent.com/u/20733354?s=460&u=363dbf6d7becb19a848535228189abc7b263697c&v=4"
+  twitter = "robokomy"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 
@@ -158,7 +157,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/favicon.ico"
 
   # Header configuration
   # The link at the right of the header is customizable
