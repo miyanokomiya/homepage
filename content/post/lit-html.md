@@ -1,9 +1,9 @@
 ---
 title: "2019年の正月に始めるwebcomponentとlit-html"
+slug: lit-html
 date: 2019-01-02
 categories:
 - tech
-- web
 tags:
 - Web Component
 thumbnailImage: /img/no-image.jpg
