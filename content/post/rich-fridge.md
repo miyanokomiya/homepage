@@ -8,7 +8,7 @@ tags:
 - Vue
 - Nuxt
 - Firebase
-thumbnailImage: /img/no-image.jpg
+thumbnailImage: "/img/post/rich-fridge/38_1.png"
 ---
 
 他サイトに掲載していた過去記事サルベージ
