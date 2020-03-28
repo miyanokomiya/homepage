@@ -22,7 +22,7 @@ thumbnailImage: /img/no-image.jpg
 そしてやっと隠しファイルも検索対象とする設定を書けたので、もしかしたら世界の誰かのQOV向上に貢献できるかもしれないということでここにメモ。  
 
 ## 解決方法
-プラグインは[deiin](https://github.com/Shougo/dein.vim)で管理しているので`.dein.toml`形式で抜粋。fzfと[ag](https://github.com/ggreer/the_silver_searcher)は別途インストール済ということで。
+プラグインは[dein](https://github.com/Shougo/dein.vim)で管理しているので`.dein.toml`形式で抜粋。fzfと[ag](https://github.com/ggreer/the_silver_searcher)は別途インストール済ということで。
 
 ```vim
 # .dein.toml
