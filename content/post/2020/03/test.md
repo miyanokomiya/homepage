@@ -6,6 +6,9 @@ categories:
   - wip a
 tags:
   - wip b
-thumbnailImage: /img/no-image.jpg
+thumbnailImage: /img/uploads/20733354.png
 ---
+aaaaa
 <!--more-->
+
+nnnnnnnnnn
