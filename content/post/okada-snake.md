@@ -10,7 +10,6 @@ tags:
   - 岡田
 thumbnailImage: /img/post/okada-snake/snap.jpg
 ---
-kkk
 数年ぶりにゲームの体裁を整えた新作を作った。
 <!--more-->
 
