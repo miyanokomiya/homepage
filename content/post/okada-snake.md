@@ -1,6 +1,6 @@
 ---
 title: 岡田スネーク
-date: 2020-03-28T00:00:00.000Z
+date: '2020-03-28'
 slug: okada-snake
 categories:
   - tech
