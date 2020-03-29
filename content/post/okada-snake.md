@@ -1,16 +1,16 @@
 ---
-title: "岡田スネーク"
+title: 岡田スネーク
+date: 2020-03-28T00:00:00.000Z
 slug: okada-snake
-date: 2020-03-28
 categories:
   - tech
 tags:
   - SVG
   - elm
   - 岡田
-thumbnailImage: "/img/post/okada-snake/snap.jpg"
+thumbnailImage: /img/post/okada-snake/snap.jpg
 ---
-
+kkk
 数年ぶりにゲームの体裁を整えた新作を作った。
 <!--more-->
 
