@@ -3,9 +3,9 @@ title: "typescript環境でALEのeslint利用fixerが動かなくなっていた
 slug: ale-ts-lint
 date: 2019-08-31
 categories:
-- tech
+  - tech
 tags:
-- vim
+  - vim
 thumbnailImage: /img/no-image.jpg
 ---
 

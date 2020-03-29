@@ -3,9 +3,9 @@ title: "Vimで単語のキャメル、スネーク、ケバブを切り替える
 slug: camel-snake
 date: 2019-07-18
 categories:
-- tech
+  - tech
 tags:
-- vim
+  - vim
 thumbnailImage: /img/no-image.jpg
 ---
 

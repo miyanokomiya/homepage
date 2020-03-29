@@ -3,9 +3,9 @@ title: "長年欲しかったcanvasでくり抜きポリゴンを描画する方
 slug: canvas-hollow
 date: 2019-05-03
 categories:
-- tech
+  - tech
 tags:
-- canvas
+  - canvas
 thumbnailImage: "/img/post/canvas-hollow/33_b.png"
 ---
 

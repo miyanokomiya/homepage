@@ -3,11 +3,11 @@ title: "Nuxt + TypeScript + Firebaseでカンバンライクな冷蔵庫管理�
 slug: rich-fridge
 date: 2019-04-07
 categories:
-- tech
+  - tech
 tags:
-- Vue
-- Nuxt
-- Firebase
+  - Vue
+  - Nuxt
+  - Firebase
 thumbnailImage: "/img/post/rich-fridge/38_1.png"
 ---
 

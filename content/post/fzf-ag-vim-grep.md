@@ -3,10 +3,10 @@ title: "fzf+ag+vimで隠しファイルをgrep対象に含める"
 slug: fzf-ag-vim-grep
 date: 2019-03-12
 categories:
-- tech
+  - tech
 tags:
-- vim
-- fzf
+  - vim
+  - fzf
 thumbnailImage: /img/no-image.jpg
 ---
 

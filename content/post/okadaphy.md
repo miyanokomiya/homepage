@@ -3,10 +3,10 @@ title: "岡田を切る技術"
 slug: okadaphy
 date: 2019-05-06
 categories:
-- tech
+  - tech
 tags:
-- SVG
-- 岡田
+  - SVG
+  - 岡田
 thumbnailImage: "/img/post/okadaphy/14_5.png"
 ---
 

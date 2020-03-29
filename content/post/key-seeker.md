@@ -3,9 +3,9 @@ title: "i18nのキーをつらつら書くたびに欲しくなってたvimプ�
 slug: key-seeker
 date: 2019-04-23
 categories:
-- tech
+  - tech
 tags:
-- vim
+  - vim
 thumbnailImage: /img/no-image.jpg
 ---
 

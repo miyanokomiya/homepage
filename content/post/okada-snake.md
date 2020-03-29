@@ -3,11 +3,11 @@ title: "岡田スネーク"
 slug: okada-snake
 date: 2020-03-28
 categories:
-- tech
+  - tech
 tags:
-- SVG
-- elm
-- 岡田
+  - SVG
+  - elm
+  - 岡田
 thumbnailImage: "/img/post/okada-snake/snap.jpg"
 ---
 

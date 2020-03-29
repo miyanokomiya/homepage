@@ -3,11 +3,11 @@ title: "相性抜群なVueとSVGでオンラインマインドマップ"
 slug: mind-xx-acpr
 date: 2018-04-15
 categories:
-- tech
+  - tech
 tags:
-- Vue
-- Firebase
-- SVG
+  - Vue
+  - Firebase
+  - SVG
 thumbnailImage: /img/post/mind-xx-acpr/54_c.png
 ---
 

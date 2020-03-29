@@ -3,9 +3,9 @@ title: "vimでカレントファイルパスを素早くヤンクしたい"
 slug: yunk-path
 date: 2019-04-19
 categories:
-- tech
+  - tech
 tags:
-- vim
+  - vim
 thumbnailImage: /img/no-image.jpg
 ---
 

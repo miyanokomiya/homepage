@@ -3,10 +3,10 @@ title: "Goでwasmをやりたくなった人の参考になるかもしれない
 slug: go-wasm
 date: 2018-12-24
 categories:
-- tech
+  - tech
 tags:
-- wasm
-- go
+  - wasm
+  - go
 thumbnailImage: /img/no-image.jpg
 ---
 

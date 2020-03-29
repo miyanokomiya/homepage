@@ -3,10 +3,10 @@ title: "アドカレのためにVueとSVGなGIFメーカーをElectron環境で�
 slug: svgif
 date: 2018-12-02
 categories:
-- tech
+  - tech
 tags:
-- Vue
-- Electron
+  - Vue
+  - Electron
 thumbnailImage: /img/post/svgif/img.jpg
 ---
 

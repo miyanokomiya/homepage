@@ -16,7 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", allow_add: true, default: ["wip"]}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["wip"]}
+      - {label: "Categories", name: "categories", widget: "list", default: ["wip"]}
+      - {label: "Tags", name: "tags", widget: "list", default: ["wip"]}
       - {label: "ThumbnailImage", name: "thumbnailImage", widget: "image", default: "/img/no-image.jpg"}
       - {label: "Body", name: "body", widget: "markdown", default: "<!--more-->"}
