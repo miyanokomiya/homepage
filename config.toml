@@ -18,7 +18,7 @@ defaultContentLanguage = "ja"
 title = "岡田テーマパーク"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "miyanokomiya"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-62283996-3"
 paginate = 7
 canonifyurls = true
 
