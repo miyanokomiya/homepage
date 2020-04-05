@@ -3,14 +3,14 @@ title: WebGL on Elm Architectureでmeshを変形させるお作法
 date: '2020-04-05'
 slug: elm-webgl-transform
 categories:
-  - teck
+  - tech
   - ElmでWebGL奮闘記
 tags:
   - Elm
   - WebGL
 thumbnailImage: /img/uploads/スクリーンショット-2020-04-01-23.21.53.png
 ---
-modelにmeshを突っ込め。
+WebGL世界におけるmesh変形とカメラとShaderを整理する。
 
 <!--more-->
 
