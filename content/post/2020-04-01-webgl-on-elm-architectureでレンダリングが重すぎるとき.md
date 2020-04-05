@@ -1,7 +1,7 @@
 ---
-title: WebGL on Elm Architectureでレンダリングが重すぎるとき
-date: '2020-04-01'
-slug: elm-webgl-perform
+title: WebGL on Elm Architectureでmeshを変形させるお作法
+date: '2020-04-05'
+slug: elm-webgl-transform
 categories:
   - teck
   - ElmでWebGL奮闘記
@@ -32,7 +32,7 @@ Three.jsに甘えたWebGL利用しかしてこなかったせいか、WebGLと�
 
 WebGLの気持ちをよく分かっていなった当初は、meshを回転させるには単純に「meshを構成する頂点をそれぞれ移動すればよい」とスーパーシンプルに考えてしまっていた。
 
-もちろんこの方法でもmeshは回転した状態でWebGLは描画してくれる。しかしながらこのときの「回転した状態」というのは大きな語弊がある。正確に表現するなら、「元のmeshの頂点をそれぞれ回転させた頂点から新たに生成したmeshに差し替えた状態」といううことになる。要するに回転させる前と後のmeshは全く別の存在になってしまっている。
+もちろんこの方法でもmeshは回転した状態でWebGLは描画してくれる。しかしながらこのときの「回転した状態」というのは大きな語弊がある。正確に表現するなら、「元のmeshの頂点をそれぞれ回転させた頂点から新たに生成したmeshに差し替えた状態」である。要するに回転させる前と後のmeshは全く別の存在になってしまっている。
 
 ## mesh生成コスト
 
@@ -52,7 +52,7 @@ mesh自体の頂点を回転させる方法がだめならどうやって回転�
 
 meshは見事に回転した状態で描画された。そしてmesh自体は元のままなので再生成も行われていない。パフォーマンス劣化もない。めでたしめでたし。
 
-当然ながら物事はそんなにシンプルではない。だってカメラ自体をを回転させたら3D空間全体が回転してしまうではないか。背景もなにも空間にただ1つのmeshを登場させるだけでいい状況なんて皆無ではないかというツッコミが溢れる。
+当然ながら物事はそんなにシンプルではない。だってカメラ自体をを回転させたら3D空間全体が回転してしまうではないか。背景も何もない空間にただ1つのmeshを登場させるだけでいい状況でしか使えない方法ではないかというツッコミが溢れる。
 
 しかしその考え自体が既にThree.js概念に引きずられていて、WebGL的概念に辿り着けていない。
 
@@ -62,7 +62,7 @@ meshは見事に回転した状態で描画された。そしてmesh自体は元
 
 WebGLの世界にカメラが存在していないのなら、3D空間を平面に描画しているこの視点の位置は一体なんなんだという疑問が当然出てくる。
 
-結論から言うとそれはカメラではない。単にその位置から見えているように、それぞれのmeshを変形させた平面像をcanvasに描画しているに過ぎない。
+結論から言うとそれはカメラではない。単に**その位置から見えているように、それぞれのmeshを変形**させた平面像をcanvasに描画しているに過ぎない。
 
 この変形という役割を担っているのがShaderである。任意のmeshには任意のShaderによる変形を加えることができ、WebGLは変形後の3D表現をただの平面へと描画する。
 
@@ -74,7 +74,9 @@ WebGLの世界にカメラが存在していないのなら、3D空間を平面�
 
 ちなみにこの変形を行うShaderのことを、「頂点シェーダ」「vertex shader」と呼ぶらしい。実際は他にもShaderは存在するが、簡略化のために記事内でのShaderは全てこの頂点シェーダのことを指しているものとする。
 
-ElmのWebGLサンプルでもそのような名称のShader実装を用紙している。 https://github.com/elm-explorations/webgl/blob/ca14c7f201019315ba851dab80b0ef55563e06db/examples/cube.elm#L125-L140
+ElmのWebGLサンプルでもそのような名称のShader実装を用意してくれている。
+
+https://github.com/elm-explorations/webgl/blob/ca14c7f201019315ba851dab80b0ef55563e06db/examples/cube.elm#L125-L140
 
 ShaderはGLSLというJavaScriptでもElmでもないWebGL制御用言語で記述される。突然の新言語登場に面食らいやすいが、実はやっていることはmeshの格頂点に対するただの座標変換だけだったりする。GPUで計算してくれそうな気配があるので、おそらくスクリプト側で行列計算するよりも高速なのではないだろうか、詳細は未確認。
 
@@ -107,3 +109,38 @@ mesh変形方法に関してのこの記述も、どういうことなのかも�
 1. **それぞれのmeshに対する**変換行列（`transform`）による座標変換を行う
 2. **全てのmeshで共通**の変換行列（`camera`）による座標変換を行う
 3. レンダリングエンジンに引き渡す
+
+## Elm
+WebGLサンプルにShader実装も載っているが、単一のmeshしか存在しない世界を想定しているような実装になっていてそのままだとやや使いにくい。
+
+https://github.com/elm-explorations/webgl/blob/ca14c7f201019315ba851dab80b0ef55563e06db/examples/cube.elm#L125-L140
+
+視点用カメラとmesh変形を分けて扱うために調整するとこのような雰囲気。カメラやmesh変形をどういうデータ構造でModelに持つかによってShader側も自前で調整していくといいかもしれない。
+
+```elm
+type alias Uniforms =
+    { transform : Mat4
+    , perspective : Mat4
+    , camera : Mat4
+    , shade : Float
+    }
+
+vertexShader : Shader Vertex Uniforms { vcolor : Vec3 }
+vertexShader =
+    [glsl|
+
+        attribute vec3 position;
+        attribute vec3 color;
+        uniform mat4 perspective;
+        uniform mat4 camera;
+        uniform mat4 transform;
+        varying vec3 vcolor;
+        void main () {
+            gl_Position = perspective * camera * transform * vec4(position, 1.0);
+            vcolor = color;
+        }
+
+    |]
+```
+
+ElmというよりほぼWebGL自体の話題だったが今回のまとめはここまで。
