@@ -1,14 +1,14 @@
 ---
-title: FlutterでAndroidアプリを初公開
+title: FlutterでAndroidアプリを作って初公開した
 date: 2020-10-02
 slug: flutter-timer-xrd
 categories:
   - teck
 tags:
   - Flutter
-thumbnailImage: /img/uploads/screenshot_20200908-002336.png
+thumbnailImage: /img/uploads/4index.png
 ---
-Flutterなる謎の言語がマルチプラットフォームのアプリ製作にイケてるという噂を真に受けてしばらく触っていた。
+Flutterなる謎の言語がクロスプラットフォームのアプリ製作にイケてるという噂を真に受けてしばらく触っていた。
 
 <https://flutter.dev/>
 
@@ -24,7 +24,7 @@ Flutterはモバイル以外にも対応を進めていて、betaビルドでは
 
 https://github.com/miyanokomiya/masumetter
 
-![https://miyanokomiya.github.io/masumetter/index.html#/](/img/uploads/screenshot_2020-10-02-flutter-demo.png)
+![https://miyanokomiya.github.io/masumetter/index.html#/](/img/uploads/6index.png)
 
 ### その2
 
@@ -32,14 +32,50 @@ Canvasライクな描画は試しておきたいよねということで特に�
 
 https://github.com/miyanokomiya/okadadada
 
-![https://miyanokomiya.github.io/okadadada/index.html#/](/img/uploads/screenshot_2020-10-02-岡田ダダ.png)
+![https://miyanokomiya.github.io/okadadada/index.html#/](/img/uploads/7index.png)
 
 ## ちゃんとしたアプリ
+
 在宅ワークを満喫すべく体幹系サーキットトレーニングをやり始める。サーキットトレーニング用のタイマーが欲しい。アプリを探そう。いろいろ見つかるけどいまいちしっくりこないし広告が邪魔。そうだせっかくFlutter触ってたし自作しようということでまともなアプリを作った。
 
 なんとちゃんとGoogle Playにも公開した。デベロッパー未登録からアプリ公開経験ありにグレードアップした。スキルシートでアピールしていこう。
 
-[https://play.google.com/store/apps/details?id=tokyo.miyanokomiya.TimerXrd](https://play.google.com/store/apps/details?id=tokyo.miyanokomiya.TimerXrd)
+<https://play.google.com/store/apps/details?id=tokyo.miyanokomiya.TimerXrd>
+
+![](/img/uploads/4index.png)
+
+![](/img/uploads/3.png)
 
 
-![](/img/uploads/screenshot_20200908-002336.png)
+実際に取り組んでいる体幹トレーニングはこれ。ほぼ毎日取り組めている。自作アプリを使いたい効果もきっと少しはある。在宅ワークでなまりやすい体幹への喝入れとしてもおすすめ。
+
+https://melos.media/training/48421/
+
+## Flutter所感
+むかーしAndroid Studioで軽くHello Worldしたことがあり、そのときはAndroidアプリ特有のアクティビティやらの仕組みがとにかく分かりにくかった印象が強い。
+
+一方でFlutterを使っているとそういうややこしさは出てこない。クロスプラットフォーム対応前提なのでOS固有な部分は独自のライフサイクルによって覆い隠してくれている。勿論内部ではアクティビティやらに変換されていて、デバッグツール等で覗くと単一のアクティビティに色々と詰め込んでいるらしい。
+
+手放しにFlutter最高と言えるかというとそうでもない。
+
+まずDartという見慣れない言語の存在。確かにJavaっぽくてそれほどの癖はないものの、なんでこの言語で書かなければいけないんだ感は終始あった。それならReact Nativeにしろよという意見は至極真っ当。普段フロントエンド周りの技術しか触ってないからたまには外の未知の世界を見たかったのかもしれない。
+
+なぜDartなのかは未だによく分かっていない。なぜOZは3人なのか並みによく分かっていない。とはいえ慣れてしまえばそこまでの障壁でもない。ただしnull安全でないのは非常に気になる。Java踏襲なのか、変数には常にnullが入り込む余地がありそれを警告してくれる仕組みも存在しない。一応最近のDart開発陣はnull安全の達成を目指しているという噂をどこかで見た。今後に期待。
+
+ネイティブ系のアプリ開発経験がそもそもないのでFlutterとその他ツールとの良し悪しは不明。少なくとも、ネイティブ系アプリに関する知識が何もなくても、Flutterの導きによってちょっとしたアプリなら作ることができるのは確か。
+
+Googleの後押しもあることだし、何もわからないけどアプリ作ってみたいならFlutterという選択肢はありな気がする。iOSを完全に捨てるならKotlinでいいのかもしれないけどその件については何もわからない。とりあえずGoogleはFlutterを推している。そしてAndroidはGoogle製。つまりそういうことなのだろう。
+
+## iOS版
+今回は完全に自分用アプリかつ、今の手持ちがPixel3aなのでiOSに対応してストアに公開するモチベが全く湧かず。
+
+タイマーアプリには必須な音を鳴らす部分はライブラリに頼っており、それのサポート範囲にもiOSが入っていないらしくやるとしたらそのあたりも面倒になってきそう。
+
+ただ音を鳴らすだけとはいえ、端末機能に近いレイヤーで何かしたいとなるとやはり困難が出てくるというのがクロスプラットフォームの運命らしい。本当は端末がミュートされていたらそれを画面に表示して知らせる的な機能も欲しかったのが、リアルタイムに端末音量を取得する方法がどうにも分からず諦めてしまった。
+
+あとこのためだけにデベロッパー税を毎年支払う気にはとてもならないというのは否定できない。
+
+## 締め
+ひとまず欲しかった機能は最低限揃ったアプリが手に入った。気が向いたらFirebaseと連携させて認証機能とかデータアップロードとかやるかもしれない。
+
+今のところ完全にローカル完結状態で、体幹トレーニング実施記録機能もSQLiteでローカル管理。機種以降とかするときにこれまでのトレーニングログが名残惜しくなったらモチベーションに繋がる可能性は高い。そのためにもまずは体幹トレーニングを継続しなければならない。体幹の強さは開発力に繋がるのである。
