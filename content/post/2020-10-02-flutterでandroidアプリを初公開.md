@@ -10,6 +10,8 @@ thumbnailImage: /img/uploads/4index.png
 ---
 Flutterなる謎の言語がクロスプラットフォームのアプリ製作にイケてるという噂を真に受けてしばらく触っていた。
 
+<!--more-->
+
 <https://flutter.dev/>
 
 ## お試しアプリ
