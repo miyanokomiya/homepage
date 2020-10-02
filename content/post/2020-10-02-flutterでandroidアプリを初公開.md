@@ -8,7 +8,7 @@ tags:
   - Flutter
 thumbnailImage: /img/uploads/4index.png
 ---
-Flutterなる謎の言語がクロスプラットフォームのアプリ製作にイケてるという噂を真に受けてしばらく触っていた。
+Flutterなる謎の何かがクロスプラットフォームのアプリ製作にイケてるという噂を真に受けてしばらく触っていた。
 
 <!--more-->
 
