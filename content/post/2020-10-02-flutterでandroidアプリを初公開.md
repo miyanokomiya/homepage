@@ -3,7 +3,7 @@ title: FlutterでAndroidアプリを作って初公開した
 date: 2020-10-02
 slug: flutter-timer-xrd
 categories:
-  - teck
+  - tech
 tags:
   - Flutter
 thumbnailImage: /img/uploads/4index.png
