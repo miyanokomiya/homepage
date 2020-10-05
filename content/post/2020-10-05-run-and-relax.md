@@ -1,5 +1,5 @@
 ---
-title: run-and-relax
+title: 走ることとリラックスすること
 date: 2020-10-06
 slug: run-and-relax
 categories:
