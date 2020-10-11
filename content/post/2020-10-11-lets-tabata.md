@@ -6,6 +6,7 @@ categories:
   - ランニング
 tags:
   - Tabata
+  - VO2Max
 thumbnailImage: /img/uploads/arakawa.png
 ---
 すべては道のりはVO2Maxから始まると思い至ったので早速行動に移す。ダニエルズ教官の理論に沿うならIペースのスピード練習がまさにそのためのトレーニングである。
