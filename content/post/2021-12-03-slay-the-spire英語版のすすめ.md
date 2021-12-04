@@ -1,5 +1,5 @@
 ---
-title: Slay the Spire言語設定英語のすすめ
+title: Slay the Spire英語設定のすすめ
 date: 2021-12-04
 slug: sts-english
 categories:
