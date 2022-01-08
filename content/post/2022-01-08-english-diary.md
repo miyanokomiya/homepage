@@ -5,7 +5,7 @@ slug: english-diary
 categories:
   - English
 tags: []
-thumbnailImage: /img/no-image.jpg
+thumbnailImage: /img/uploads/english.svg
 ---
 Nowadays I restarted leaning English. To get used to it more, I try to write a diary in English. This is just a diary for leaning.
 
