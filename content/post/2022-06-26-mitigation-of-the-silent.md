@@ -19,22 +19,38 @@ Of course, our final destination is beating the corrupt heart. Silent has a vari
 
 The problem is how the hell we can survive such an insane heart's attacks. Let's get into this theme.
 
-Simply put, our goal is surviving first routine of the heart. The heart gives us 67 single attack and 3x15 multiple attacks arbitrarily followed by first debuffing turn. To make matters worse, the heart imposes "frail" and a bunch of status cards upon us.
+Simply put, our goal is surviving first routine of the heart. The heart gives us 67 single attack and 3x15 multiple attacks arbitrarily followed by first debuff turn. To make matters worse, the heart imposes "frail" and a bunch of status cards upon us.
+
+Things aren't looking good for us apparently. What should we do againt this insane situation? The keyword is "the frontloading multiple-turn mitigation".
 
 ## Mitigation
 As a non-native English speaker, I didn't know this word "mitigation" so far and got to know thanks to this video. No matter how many I get slapped by the heart, I'm still able to get something worth. What a great game.
 
 iframe width="560" height="315" src="https://www.youtube.com/embed/skOUhJyWvgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Best Solutions
-One of the strongest solutions to survive the heart's first routine is "intangible". Silent has far more way to access intangibility.
+### Powerful Solutions
+One of the strongest solutions to survive the heart's first routine is "Intangible". Silent has far more way to access intangibility.
 
-Wraith Form
-Apparition
-Ghost In A Jar
-Incense Burner
+#### Wraith Form
+This is definitely one of the strongest cards in the spire. When I first saw this card, I thought it was pretty stinky. As I ascended the spire, it became my soul mate. It's mine. No one can take it away from my boss rewards.
 
-### Second Best Solutions
+Losing 1 dexterity each turn is certainly awful. However, don't forget that we never be able to slay the heart unless mitigating both of two no mercy attacks enough lower than our HP.
+
+"Wraith Form" is definitely the frontloading multiple-turn mitigation. We still have to deal 1x15 damage though, it won't be a big issue.
+
+"Intangible" also reduces "Beat of Death" 2 to 1. It makes our life easier as well. Once we play "Wraith Form", we can get 3 forgiving turns. Even if it isn't upgraded, we don't have to worry about 4th turn so seriously.
+
+Set some late combat problems aside, "Wraith Form" gives us "the frontloading multiple-turn mitigation" enough to survive the heart's first routine. Just one card does it, so good, so poggy. Praise "Wraith Form".
+
+As long as we have "Wraith Form" somehow until facing the heart, mitigation problem againt the heart is almost solved. On the other hand, what can we do if we don't have any "Wraith Form"? The rest of this article is mainly about the situation.
+
+Remenber, praise "Wraith Form".
+
+#### Apparition
+
+#### Ghost In A Jar
+
+### Good Solutions
 
 Piercing Wail
 Dark Shackles
@@ -42,8 +58,9 @@ Dark Shackles
 Fairy in a Bottle
 Lizard Tail
 Fossilized Helix
+Incense Burner
 
-### Helping Solutions
+### Helpful Solutions
 Tungsten Rod
 Torii
 Paper Krane
