@@ -42,18 +42,24 @@ Losing 1 dexterity each turn is certainly awful. However, don't forget that we n
 
 Set some late combat problems aside, "Wraith Form" gives us "the frontloading multiple-turn mitigation" enough to survive the heart's first routine. Just one card does it, so good, so poggy. Praise "Wraith Form".
 
-As long as we have "Wraith Form" somehow until facing the heart, mitigation problem againt the heart is almost solved. On the other hand, what can we do if we don't have any "Wraith Form"? The rest of this article is mainly about the situation.
+As long as we have "Wraith Form" somehow until facing the heart, mitigation problem against the heart is almost solved. On the other hand, what can we do if we don't have any "Wraith Form"? The rest of this article is mainly about the situation.
 
-Remenber, praise "Wraith Form".
+Remember, praise "Wraith Form".
 
 #### Apparition
+This is also one of the strongest cards in the spire. Needless to say, we can pass through the first routine as long as we can play it at the specific turn.
 
-#### Ghost In A Jar
+This card also imposes us to have lower max HP. It usually means we couldn't endure the first routine without getting intangible.
 
 ### Good Solutions
 
 Piercing Wail
 Dark Shackles
+
+#### Ghost In A Jar
+Unless "Sacred Bark", we can pass through only one of two attacks by this potion. However, this mitigation has a great consistency. We can use it whenever we want!
+
+Although this potion is way too strong, we should not entirely rely on only it. If this is the only way of your frontloading mitigation, you might be forced to use it to survive in the previous elite fight. If so, what you can do againt the heart is just a greeting.
 
 Fairy in a Bottle
 Lizard Tail
