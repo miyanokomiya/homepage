@@ -19,7 +19,7 @@ Of course, our final destination is beating the corrupt heart. Silent has a vari
 
 The problem is how the hell we can survive such an insane heart's attacks. Let's get into this theme.
 
-Simply put, our goal is surviving first routine of the heart. The heart gives us 67 single attack and 3x15 multiple attacks arbitrarily followed by first debuff turn. To make matters worse, the heart imposes "frail" and a bunch of status cards upon us.
+Simply put, our goal is surviving first routine of the heart. The heart gives us 67 single attack and 3x15 multiple attacks arbitrarily followed by first debuff turn. To make matters worse, the heart imposes "frail" and a bunch of status cards upon us. We can't ignore "Beat of Death" as well. It brings us 2 times the number of cards we play.
 
 Things aren't looking good for us apparently. What should we do againt this insane situation? The keyword is "the frontloading multiple-turn mitigation".
 
@@ -40,7 +40,7 @@ Losing 1 dexterity each turn is certainly awful. However, don't forget that we n
 
 "Intangible" also reduces "Beat of Death" 2 to 1. It makes our life easier as well. Once we play "Wraith Form", we can get 3 forgiving turns. Even if it isn't upgraded, we don't have to worry about 4th turn so seriously.
 
-Set some late combat problems aside, "Wraith Form" gives us "the frontloading multiple-turn mitigation" enough to survive the heart's first routine. Just one card does it, so good, so poggy. Praise "Wraith Form".
+Set some late combat problems aside, "Wraith Form" gives us "the frontloading multiple-turn mitigation" enough to survive the heart's first routine. Just one card does it, so good, so so good. Praise "Wraith Form".
 
 As long as we have "Wraith Form" somehow until facing the heart, mitigation problem against the heart is almost solved. On the other hand, what can we do if we don't have any "Wraith Form"? The rest of this article is mainly about the situation.
 
@@ -52,9 +52,15 @@ This is also one of the strongest cards in the spire. Needless to say, we can pa
 This card also imposes us to have lower max HP. It usually means we couldn't endure the first routine without getting intangible.
 
 ### Good Solutions
+Unlike the powerful solutions, these good solutions typically give us 1 turn mitigation against the 2 attacks.
 
-Piercing Wail
-Dark Shackles
+#### Malaise
+One great feature of "Malaise" is that we don't have to wait multiple attack turn. Once we succeed to play this card with 2 energy, 1 if it's upgraded, until getting the multiple attack, we can completely mitigate it. "Malaise" technically has both abilities of mitigation and manipulation thanks to this feature.
+
+"Malaise" alse applies "Weak". This might be an optional feature of "Malaise" though, it's sill important to keep making the heart weaken.
+
+#### Piercing Wail and Dark Shackles
+
 
 #### Ghost In A Jar
 Unless "Sacred Bark", we can pass through only one of two attacks by this potion. However, this mitigation has a great consistency. We can use it whenever we want!
