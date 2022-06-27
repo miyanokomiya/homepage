@@ -57,15 +57,19 @@ Unlike the powerful solutions, these good solutions typically give us 1 turn mit
 #### Malaise
 One great feature of "Malaise" is that we don't have to wait multiple attack turn. Once we succeed to play this card with 2 energy, 1 if it's upgraded, until getting the multiple attack, we can completely mitigate it. "Malaise" technically has both abilities of mitigation and manipulation thanks to this feature.
 
-"Malaise" alse applies "Weak". This might be an optional feature of "Malaise" though, it's sill important to keep making the heart weaken.
+"Malaise" also applies "Weak". This might be an optional feature of "Malaise" though, it's sill important to keep making the heart weaken.
 
 #### Piercing Wail and Dark Shackles
+These cards have better cost performance than "Malaise", but have neither multiple turn mitigation nor manipulation features. Therefore, we have to have a manipulation way that helps us play these cards at the specific turn.
 
+Unfortunately, Silent doesn't have any card to manipulate her discard pile. This means once we put our card on the discard pile, the only way to play it is drawing it again authentically.
+
+"Well-Laid Plans" is one of the best way to manipulate. It allows us to retain key cards until key turn to play. Do you like "Setup" by the way? I love it. "Setup" is precious manipulating way of Silent as well. It allows us to pass our hope to the future. I need another article featuring this cool card.
 
 #### Ghost In A Jar
 Unless "Sacred Bark", we can pass through only one of two attacks by this potion. However, this mitigation has a great consistency. We can use it whenever we want!
 
-Although this potion is way too strong, we should not entirely rely on only it. If this is the only way of your frontloading mitigation, you might be forced to use it to survive in the previous elite fight. If so, what you can do againt the heart is just a greeting.
+Although this potion is way too strong, we should not entirely rely on only this potion. If it is the only way of your frontloading mitigation, you might be forced to use it to survive in the previous elite fight. If so, what you can do against the heart is just a greeting.
 
 Fairy in a Bottle
 Lizard Tail
