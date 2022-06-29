@@ -1,6 +1,6 @@
 ---
 title: Mitigation of The Silent
-date: 2022-06-26
+date: 2022-06-29
 slug: mitigation-silent
 categories:
   - game
