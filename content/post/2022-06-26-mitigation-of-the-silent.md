@@ -71,12 +71,17 @@ Unless "Sacred Bark", we can pass through only one of two attacks by this potion
 
 Although this potion is way too strong, we should not entirely rely on only this potion. If it is the only way of your frontloading mitigation, you might be forced to use it to survive in the previous elite fight. If so, what you can do against the heart is just a greeting.
 
-Fairy in a Bottle
-Lizard Tail
-Fossilized Helix
-Incense Burner
+#### Fairy in a Bottle and Lizard Tail
+
+#### Fossilized Helix
+If the first attack is the big slap, this relic is incredible. Even it the first is the multiple attack, Silent has good ways to negate it and keep "Buffer" for upcoming big slap.
+
+#### Incense Burner
+Preparation is essential though, this relic works great as well. Moreover, we can usually activate this relic twice in the final combat. On the other hand, we can't predict which turn the heart intends big slap, so it's better to have alternative way to negate the big slap for the worst case.
 
 ### Helpful Solutions
-Tungsten Rod
-Torii
+#### Tungsten Rod
+If we have a good way to get enough intangibility, this relic gives us perfect invincibility. Otherwise, it helps us negate mulple attack a bit, it doesn't contribute to mitigate the big attack.
+
+#### Torii
 Paper Krane
