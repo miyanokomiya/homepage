@@ -13,8 +13,8 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://miyanokomiya.tokyo/"
-languageCode = "ja"
-defaultContentLanguage = "ja"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "岡田テーマパーク"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "miyanokomiya"
