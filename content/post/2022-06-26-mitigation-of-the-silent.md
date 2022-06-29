@@ -79,9 +79,18 @@ If the first attack is the big slap, this relic is incredible. Even it the first
 #### Incense Burner
 Preparation is essential though, this relic works great as well. Moreover, we can usually activate this relic twice in the final combat. On the other hand, we can't predict which turn the heart intends big slap, so it's better to have alternative way to negate the big slap for the worst case.
 
+#### Negate debuffs
+Negating debuffs is definitely one of the strongest solutions, "if" we can do it. Yes, the problem is we have only a few ways to negate debuffs. We should think that we usually can't do it. If we can, it's a pleasure.
+
 ### Helpful Solutions
 #### Tungsten Rod
-If we have a good way to get enough intangibility, this relic gives us perfect invincibility. Otherwise, it helps us negate mulple attack a bit, it doesn't contribute to mitigate the big attack.
+If we have a good way to get enough intangibility, this relic gives us perfect invincibility. Otherwise, it helps us negate multiple attack a bit, it doesn't contribute to mitigate the big attack.
 
-#### Torii
-Paper Krane
+#### Paper Krane
+This relic is insanely reliable. 45x1.5x0.75=50 turns into 45x1.5x0.6=40. It's sill not low damage, but kinda manageable to the deck being able to face against the heart. This relic is also effective against multiple attack. It reduces 2x1.5=3 (x15) to 2x1.5x0.6=1 (x15). This relic brings us 10+15=25 more block than without it. Only what we have to do is making the heart weaken. It's usually not so hard for Silent. This relic literally has both abilities of mitigation and consistency, that's why this relic is way too incredible.
+
+### Essential Solutions (in case without intangibility)
+#### Weak
+Needless to say, everyone knows, we couldn't survive without making the heart weaken. Even though we don't have "Paper Krane", making the heart weaken brings us 67-50(=45x1.5x0.75)=17 and 45-30(=2x1.5x0.75)=15 mitigation during the first routine. One "Nertralize is probably not enough to keep making the heart weaken. We must have enough "Weak" resources and good manipulation to play them in time.
+
+#### Dexterity
