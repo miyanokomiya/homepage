@@ -94,3 +94,6 @@ This relic is insanely reliable. 45x1.5x0.75=50 turns into 45x1.5x0.6=40. It's s
 Needless to say, everyone knows, we couldn't survive without making the heart weaken. Even though we don't have "Paper Krane", making the heart weaken brings us 67-50(=45x1.5x0.75)=17 and 45-30(=2x1.5x0.75)=15 mitigation during the first routine. One "Nertralize is probably not enough to keep making the heart weaken. We must have enough "Weak" resources and good manipulation to play them in time.
 
 #### Dexterity
+I noticed that I have lots to talk about this topic probably. This article is already very messy, it's better to carry over this topic to next article.
+
+Have a nice spire life!
