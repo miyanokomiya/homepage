@@ -3,7 +3,7 @@ title: Mitigation of The Silent
 date: 2022-06-26
 slug: mitigation-silent
 categories:
-  - Game
+  - game
 tags:
   - StS
 thumbnailImage: /img/uploads/silent.png
