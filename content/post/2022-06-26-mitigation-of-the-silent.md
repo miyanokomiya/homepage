@@ -29,7 +29,7 @@ Things aren't looking good for us apparently. What should we do againt this insa
 
 As a non-native English speaker, I didn't know this word "mitigation" so far and got to know thanks to this video. No matter how many I get slapped by the heart, I'm still able to get something worth. What a great game.
 
-iframe width="560" height="315" src="https://www.youtube.com/embed/skOUhJyWvgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/skOUhJyWvgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Powerful Solutions
 
