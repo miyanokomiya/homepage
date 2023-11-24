@@ -3,7 +3,8 @@ title: The state pattern pracitices for a diagraming app
 slug: state-pattern-for-diagraming-app
 categories:
   - tech
-tags: []
+tags:
+  - diagraming
 thumbnailImage: /img/uploads/7b974cdc0713-20231124.png
 ---
 I got inspired by this presentation (even didn't attend the event) and wrote down some ideas about a diagraming app that is kind of similar to what the presentation was featuring. We have obviously no definitive way to make them effectively though, the more knowledge and practices about these kind of apps we have, the better our apps must become. So, why not write down my experimental practices for anyone's sake?
