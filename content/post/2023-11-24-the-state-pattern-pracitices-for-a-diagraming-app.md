@@ -1,5 +1,6 @@
 ---
 title: The state pattern pracitices for a diagraming app
+date: 2023-11-Sa
 slug: state-pattern-for-diagraming-app
 categories:
   - tech
