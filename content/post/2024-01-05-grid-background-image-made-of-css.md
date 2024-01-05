@@ -5,7 +5,7 @@ slug: grid-background-css
 categories:
   - tech
 tags:
-  - tech
+  - diagraming
 thumbnailImage: /img/uploads/screenshot-2024-01-05-142348.png
 ---
 How to make some grid appearance variations for dynamic grid feature via CSS.
