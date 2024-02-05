@@ -31,7 +31,7 @@ We're going with `evenodd` clip-mode today, so their directions don't matter. If
 
 ## HTML Canvas
 
-We already have enough setup for HTMLCanvas. Let's just clip it out.
+We already have enough setup for HTML Canvas. Let's just clip it out.
 
 ```javascript
 ctx.save();
