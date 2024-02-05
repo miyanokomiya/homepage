@@ -49,7 +49,7 @@ ctx.restore();
 
 ## SVG
 
-It's almost same as HTMLCanvas though, we need a little bit attention to `<path>` element. We have to make one `<path>` element to represent both the wrapper path and the inner path.
+It's almost same as HTML Canvas though, we need a little bit attention to `<path>` element. We have to make one `<path>` element to represent both the wrapper path and the inner path.
 
 ```svg
 <clipPath id="clip-id">
