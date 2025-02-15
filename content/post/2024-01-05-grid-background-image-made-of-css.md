@@ -85,3 +85,39 @@ export const GridBackground: React.FC<Props> = ({ x, y, size }) => {
 ```
 
 Ref: https://stackoverflow.com/questions/76141466/how-to-make-dashed-line-grid-paper-like-background-in-css
+
+---
+
+Update 2025-02-15
+
+### General
+When `x` or `y` becomes big, the grid position looks to shift possibly due to error accumulation. This issue can be resolved by normalizing them.
+
+```tsx
+export const GridBackground: React.FC<Props> = ({ x, y, size }) => {
+  x = x % size;
+  y = y % size;
+  return (<div>...</div>);
+}
+```
+
+### Dashed borders
+To make dashed borders look almost equivalent to solid borders, this setup works better.  
+This can also mitigate an issue that some part of grid lines become invisible in certain conditions.
+
+```tsx
+export const GridBackground: React.FC<Props> = ({ x, y, size }) => {
+  x = x % size;
+  y = y % size;
+  return (
+    <div
+      className="w-full h-full bg-repeat"
+      style={{
+        backgroundPosition: `${-x - size / 2}px ${-y - size / 2}px`,
+        backgroundSize: `${size}px ${size}px`,
+        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M 0 5 L 10 5 M 5 0 L 5 10' stroke='%23000' stroke-dasharray='1' stroke-dashoffset='-0.5' stroke-width='${20 / size}' /%3E%3C/svg%3E")`,
+      }}
+    />
+  );
+};
+```
