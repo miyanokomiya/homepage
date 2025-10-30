@@ -340,4 +340,4 @@ https://github.com/miyanokomiya/okageo
 https://github.com/miyanokomiya/okadaphy
 
 最終成果物は静的サイトとして公開もしてあるので、俺も岡田を切りたいという欲求をお持ちの方はご活用ください。
-https://hopeful-visvesvaraya-3dafb6.netlify.com/
+https://miyanokomiya.github.io/okadaphy/
